@@ -1,0 +1,471 @@
+[
+  {
+    "country": "Argentina",
+    "name": "Buenos Aires Church",
+    "lat": -34.603684,
+    "lng": -58.381559,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-34.603684,-58.381559&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Australia",
+    "name": "Perth Church in Cannington",
+    "lat": -32.00632,
+    "lng": 115.93592,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-32.006320,115.935920&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Australia",
+    "name": "Perth Church in Dianella",
+    "lat": -31.888115,
+    "lng": 115.858276,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-31.888115,115.858276&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Australia",
+    "name": "Adelaide Church",
+    "lat": -34.995444,
+    "lng": 138.554825,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-34.995444,138.554825&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Austria",
+    "name": "Salzburg House of Prayer",
+    "lat": 47.806331,
+    "lng": 13.049155,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=47.806331,13.049155&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Austria",
+    "name": "Vienna Place of Worship",
+    "lat": 48.212459,
+    "lng": 16.337154,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=48.212459,16.337154&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Benin",
+    "name": "Benin Church",
+    "lat": 6.370293,
+    "lng": 2.391236,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=6.370293,2.391236&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Bolivia",
+    "name": "Bolivia House of Family Service",
+    "lat": -17.814582,
+    "lng": -63.156085,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-17.814582,-63.156085&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Brazil",
+    "name": "Sao Paulo House of Prayer, Brazil",
+    "lat": -23.609768,
+    "lng": -46.748572,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-23.609768,-46.748572&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Brazil",
+    "name": "FOZ House of Prayer, Brazil",
+    "lat": -25.53002,
+    "lng": -54.573399,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-25.530020,-54.573399&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Cambodia",
+    "name": "Phnom Penh Church (Cambodia Liaison Center)",
+    "lat": 11.522926,
+    "lng": 104.917542,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=11.522926,104.917542&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Canada",
+    "name": "Vancouver Church",
+    "lat": 49.24376,
+    "lng": -123.051852,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=49.243760,-123.051852&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Canada",
+    "name": "Burnaby Church",
+    "lat": 49.221805,
+    "lng": -122.934873,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=49.221805,-122.934873&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Canada",
+    "name": "Calgary Church",
+    "lat": 51.089014,
+    "lng": -114.083237,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=51.089014,-114.083237&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Chile",
+    "name": "Chile House of Family Service",
+    "lat": -33.404401,
+    "lng": -70.580718,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-33.404401,-70.580718&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Dominican Republic",
+    "name": "Dominican Republic Family Service",
+    "lat": 18.474659,
+    "lng": -69.90391,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=18.474659,-69.903910&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Ecuador",
+    "name": "Ecuador Place of Worhsip",
+    "lat": -0.219963,
+    "lng": -78.50744,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-0.219963,-78.507440&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "France",
+    "name": "Châtillon Church",
+    "lat": 48.795599,
+    "lng": 2.275157,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=48.795599,2.275157&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Germany",
+    "name": "Mannheim Church",
+    "lat": 49.45441,
+    "lng": 8.4943,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=49.454410,8.494300&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Germany",
+    "name": "Mönchengladbach House of Prayer",
+    "lat": 51.20319,
+    "lng": 6.4455,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=51.203190,6.445500&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Ghana",
+    "name": "Akropong Church",
+    "lat": 5.977963,
+    "lng": -0.088695,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=5.977963,-0.088695&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Hong Kong",
+    "name": "Western Church",
+    "lat": 22.285897,
+    "lng": 114.134317,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=22.285897,114.134317&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Hong Kong",
+    "name": "Tsuen Wan Church",
+    "lat": 22.372868,
+    "lng": 114.116112,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=22.372868,114.116112&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Hong Kong",
+    "name": "Kowloon Church",
+    "lat": 22.314213,
+    "lng": 114.163076,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=22.314213,114.163076&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Hungary",
+    "name": "Budapest Place of Worship",
+    "lat": 47.519549,
+    "lng": 19.131932,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=47.519549,19.131932&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "India",
+    "name": "Tenkasi Church",
+    "lat": 8.966722,
+    "lng": 77.310145,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=8.966722,77.310145&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "India",
+    "name": "Vedikuzhi Church",
+    "lat": 9.549971,
+    "lng": 77.048939,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=9.549971,77.048939&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "India",
+    "name": "Dymock Church",
+    "lat": 9.572101,
+    "lng": 77.089579,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=9.572101,77.089579&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Indonesia",
+    "name": "Malang Church",
+    "lat": -7.964929,
+    "lng": 112.609548,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-7.964929,112.609548&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Indonesia",
+    "name": "Cilacap Church",
+    "lat": -7.732041,
+    "lng": 109.016984,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-7.732041,109.016984&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Indonesia",
+    "name": "Solo Church",
+    "lat": -7.565851,
+    "lng": 110.841217,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-7.565851,110.841217&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Ireland",
+    "name": "Dublin Place of Worship",
+    "lat": 53.363944,
+    "lng": -6.233707,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=53.363944,-6.233707&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Italy",
+    "name": "Empoli Church",
+    "lat": 43.7206,
+    "lng": 10.938293,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=43.720600,10.938293&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Italy",
+    "name": "Prato Place of Worship",
+    "lat": 43.882674,
+    "lng": 11.091269,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=43.882674,11.091269&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Japan",
+    "name": "Osaka Ikuno Church",
+    "lat": 34.651952,
+    "lng": 135.555964,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=34.651952,135.555964&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Japan",
+    "name": "Tokyo Church",
+    "lat": 35.781958,
+    "lng": 139.488471,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=35.781958,139.488471&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Japan",
+    "name": "Kawaguchi Church",
+    "lat": 35.805727,
+    "lng": 139.706635,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=35.805727,139.706635&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Kenya",
+    "name": "Kamwala Church",
+    "lat": -0.348962,
+    "lng": 34.656356,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-0.348962,34.656356&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Malaysia",
+    "name": "Kampong Koh Church",
+    "lat": 4.190079,
+    "lng": 100.703965,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=4.190079,100.703965&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Malaysia",
+    "name": "Ayer Tawar Church",
+    "lat": 4.304412,
+    "lng": 100.760924,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=4.304412,100.760924&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Malaysia",
+    "name": "Bayan Baru Church",
+    "lat": 5.332982,
+    "lng": 100.294417,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=5.332982,100.294417&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Mexico",
+    "name": "Mexico Place of Worship (Mexico City)",
+    "lat": 19.430182,
+    "lng": -99.168114,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=19.430182,-99.168114&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Netherlands",
+    "name": "Netherlands House of Prayer",
+    "lat": 52.08777,
+    "lng": 4.398672,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=52.087770,4.398672&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "New Zealand",
+    "name": "Auckland Church",
+    "lat": -36.909017,
+    "lng": 174.77514,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-36.909017,174.775140&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "New Zealand",
+    "name": "Christchurch Church",
+    "lat": -43.54482,
+    "lng": 172.608253,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-43.544820,172.608253&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Nigeria",
+    "name": "Nigeria Church",
+    "lat": 6.454811,
+    "lng": 3.434691,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=6.454811,3.434691&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Philippines",
+    "name": "Tabina Church",
+    "lat": 7.4651,
+    "lng": 123.410826,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=7.465100,123.410826&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Philippines",
+    "name": "Maculay Church",
+    "lat": 7.540677,
+    "lng": 123.206766,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=7.540677,123.206766&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Philippines",
+    "name": "Pagadian Church",
+    "lat": 7.809472,
+    "lng": 123.415774,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=7.809472,123.415774&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Russia",
+    "name": "Moscow Church",
+    "lat": 55.800313,
+    "lng": 37.312661,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=55.800313,37.312661&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Singapore",
+    "name": "Sembawang Church",
+    "lat": 1.434449,
+    "lng": 103.802603,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=1.434449,103.802603&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "South Africa",
+    "name": "Cape Town Church",
+    "lat": -33.878712,
+    "lng": 18.498497,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-33.878712,18.498497&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "South Africa",
+    "name": "South Africa Church",
+    "lat": -26.18057,
+    "lng": 28.12698,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=-26.180570,28.126980&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "South Korea",
+    "name": "In Cheon Church",
+    "lat": 37.451193,
+    "lng": 126.737826,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=37.451193,126.737826&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "South Korea",
+    "name": "Seo Bu Church",
+    "lat": 37.61439,
+    "lng": 126.913858,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=37.614390,126.913858&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "South Korea",
+    "name": "An San Church",
+    "lat": 37.305786,
+    "lng": 126.844153,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=37.305786,126.844153&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Spain",
+    "name": "Madrid Church",
+    "lat": 40.393585,
+    "lng": -3.659018,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=40.393585,-3.659018&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Taiwan",
+    "name": "Kaohsiung Church",
+    "lat": 22.626506,
+    "lng": 120.296757,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=22.626506,120.296757&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Taiwan",
+    "name": "Nanmen Church",
+    "lat": 22.980431,
+    "lng": 120.200507,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=22.980431,120.200507&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Taiwan",
+    "name": "Wolong Church",
+    "lat": 22.492108,
+    "lng": 120.45717,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=22.492108,120.457170&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "United Kingdom",
+    "name": "Portsmouth Church",
+    "lat": 50.820334,
+    "lng": -1.082452,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=50.820334,-1.082452&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "United Kingdom",
+    "name": "London Forest Hill Church",
+    "lat": 51.439922,
+    "lng": -0.054275,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=51.439922,-0.054275&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "United Kingdom",
+    "name": "Leicester Church",
+    "lat": 52.625894,
+    "lng": -1.120162,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=52.625894,-1.120162&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "United States",
+    "name": "Honolulu Church",
+    "lat": 21.295291,
+    "lng": -157.827478,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=21.295291,-157.827478&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "United States",
+    "name": "Phoenix Church",
+    "lat": 33.345688,
+    "lng": -111.877145,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=33.345688,-111.877145&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "United States",
+    "name": "Tampa Church",
+    "lat": 27.887889,
+    "lng": -82.518847,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=27.887889,-82.518847&cbp=11,0,0,0,0&output=svembed"
+  },
+  {
+    "country": "Vietnam",
+    "name": "Ho Chi Minh Evangelical Point",
+    "lat": 10.742327,
+    "lng": 106.629287,
+    "embed": "https://maps.google.com/maps?layer=c&cbll=10.742327,106.629287&cbp=11,0,0,0,0&output=svembed"
+  }
+]

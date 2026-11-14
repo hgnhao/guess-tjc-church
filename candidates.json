@@ -1,0 +1,776 @@
+[
+ {
+  "id": 5666,
+  "country": "Argentina",
+  "name": "Buenos Aires Church",
+  "address": "Martin De Gainza 1022 C1405 AKT, Capital Federal",
+  "lat": -34.603684,
+  "lng": -58.381559,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-34.603684,-58.381559&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5660,
+  "country": "Australia",
+  "name": "Perth Church in Cannington",
+  "address": "50 Stockman Way, Cannington",
+  "lat": -32.00632,
+  "lng": 115.93592,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-32.006320,115.935920&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5659,
+  "country": "Australia",
+  "name": "Perth Church in Dianella",
+  "address": "5 Hannaby Street, Dianella",
+  "lat": -31.888115,
+  "lng": 115.858276,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-31.888115,115.858276&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5654,
+  "country": "Australia",
+  "name": "Adelaide Church",
+  "address": "18-20 Chambers St, Marion, SA",
+  "lat": -34.995444,
+  "lng": 138.554825,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-34.995444,138.554825&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5595,
+  "country": "Austria",
+  "name": "Salzburg House of Prayer",
+  "address": "Paris-Lodronstr. 19, Salzburg",
+  "lat": 47.806331,
+  "lng": 13.049155,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=47.806331,13.049155&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8703,
+  "country": "Austria",
+  "name": "Vienna Place of Worship",
+  "address": "Dettergasse 1/2/6, Vienna",
+  "lat": 48.212459,
+  "lng": 16.337154,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=48.212459,16.337154&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5581,
+  "country": "Benin",
+  "name": "Benin Church",
+  "address": "Cotonou-quartier Sik?codij carr? No 860 maison Hounkpodot? Richard, Cotonou",
+  "lat": 6.370293,
+  "lng": 2.391236,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=6.370293,2.391236&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5675,
+  "country": "Bolivia",
+  "name": "Bolivia House of Family Service",
+  "address": "Casilla #4592",
+  "lat": -17.814582,
+  "lng": -63.156085,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-17.814582,-63.156085&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5671,
+  "country": "Brazil",
+  "name": "Sao Paulo House of Prayer, Brazil",
+  "address": "Av. Eng. Saraiva de Oliveira 105., JD. Taboão São Paulo",
+  "lat": -23.609768,
+  "lng": -46.748572,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-23.609768,-46.748572&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5670,
+  "country": "Brazil",
+  "name": "FOZ House of Prayer, Brazil",
+  "address": "Av. Pedro Basso 247, Jardim Polo Center, FOZ Do Igua?u",
+  "lat": -25.53002,
+  "lng": -54.573399,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-25.530020,-54.573399&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6600,
+  "country": "Brunei",
+  "name": "Brunei House of Prayer",
+  "address": "Julan Padan Tiga, Simpang 107, Lot 4563,, Kuala Belait",
+  "lat": 4.58828,
+  "lng": 114.212102,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=4.588280,114.212102&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6831,
+  "country": "Cambodia",
+  "name": "Phnom Penh Church (Cambodia Liaison Center)",
+  "address": "House No. 73E0z, Street 32BT, Phum Kbal Tumnop,, Phnom Penh",
+  "lat": 11.522926,
+  "lng": 104.917542,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=11.522926,104.917542&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5619,
+  "country": "Canada",
+  "name": "Vancouver Church",
+  "address": "4580 Gothard Street, Vancouver",
+  "lat": 49.24376,
+  "lng": -123.051852,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=49.243760,-123.051852&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 7937,
+  "country": "Canada",
+  "name": "Burnaby Church",
+  "address": "7772 Graham Ave, Burnaby",
+  "lat": 49.221805,
+  "lng": -122.934873,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=49.221805,-122.934873&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5615,
+  "country": "Canada",
+  "name": "Calgary Church",
+  "address": "232 8A Street NE, Calgary",
+  "lat": 51.089014,
+  "lng": -114.083237,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=51.089014,-114.083237&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5668,
+  "country": "Chile",
+  "name": "Chile House of Family Service",
+  "address": "DEP. B-33, Cerro Colorado 4922, Santiago",
+  "lat": -33.404401,
+  "lng": -70.580718,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-33.404401,-70.580718&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5582,
+  "country": "DR Congo",
+  "name": "Goma Church",
+  "address": "TJC, B.P. 426, Goma",
+  "lat": -1.658501,
+  "lng": 29.220455,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-1.658501,29.220455&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5669,
+  "country": "Dominican Republic",
+  "name": "Dominican Republic Family Service",
+  "address": "Avenida México, Edificio #40, Piso",
+  "lat": 18.474659,
+  "lng": -69.90391,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=18.474659,-69.903910&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6792,
+  "country": "Ecuador",
+  "name": "Ecuador Place of Worhsip",
+  "address": "N8 MANABI OE7-32 IMBABURA, PB-SAN JUAN",
+  "lat": -0.219963,
+  "lng": -78.50744,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-0.219963,-78.507440&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5672,
+  "country": "Fiji",
+  "name": "Lautoka Place of Worship",
+  "address": "Lautoka",
+  "lat": -18.124809,
+  "lng": 178.450079,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-18.124809,178.450079&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5596,
+  "country": "France",
+  "name": "Châtillon Church",
+  "address": "76 avenue de la Division Leclerc, Châtillon",
+  "lat": 48.795599,
+  "lng": 2.275157,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=48.795599,2.275157&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8193,
+  "country": "Georgia",
+  "name": "Georgia Place of Worship",
+  "address": "1 Chirnakhuli St, Tbilisi",
+  "lat": 41.689578,
+  "lng": 44.986801,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=41.689578,44.986801&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6791,
+  "country": "Germany",
+  "name": "Mannheim Church",
+  "address": "Neckarauer Straße 7, Mannheim",
+  "lat": 49.45441,
+  "lng": 8.4943,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=49.454410,8.494300&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5599,
+  "country": "Germany",
+  "name": "Mönchengladbach House of Prayer",
+  "address": "Eickener Str. 106, Mönchengladbach",
+  "lat": 51.20319,
+  "lng": 6.4455,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=51.203190,6.445500&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5597,
+  "country": "Germany",
+  "name": "Hamburg House of Prayer",
+  "address": "Grosser Schippsee 36, Hamburg",
+  "lat": 53.461504,
+  "lng": 9.984524,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=53.461504,9.984524&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5583,
+  "country": "Ghana",
+  "name": "Accra Church",
+  "address": "Kotobabi",
+  "lat": 5.59977,
+  "lng": -0.204539,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=5.599770,-0.204539&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5584,
+  "country": "Ghana",
+  "name": "Akropong Church",
+  "address": "Akropang",
+  "lat": 5.977963,
+  "lng": -0.088695,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=5.977963,-0.088695&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5986,
+  "country": "Hong Kong",
+  "name": "Western Church",
+  "address": "和合街1-3號 金陵閤A座1/F 109-110室, 石塘咀",
+  "lat": 22.285897,
+  "lng": 114.134317,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=22.285897,114.134317&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5985,
+  "country": "Hong Kong",
+  "name": "Tsuen Wan Church",
+  "address": "Shop 6, G/F, TCL Industrial Centre,, Tsuen Wan",
+  "lat": 22.372868,
+  "lng": 114.116112,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=22.372868,114.116112&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5982,
+  "country": "Hong Kong",
+  "name": "Kowloon Church",
+  "address": "旺角海庭道8號 富榮花園一樓67B號舖, 九龍",
+  "lat": 22.314213,
+  "lng": 114.163076,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=22.314213,114.163076&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8705,
+  "country": "Hungary",
+  "name": "Budapest Place of Worship",
+  "address": "Mailing address: Fischer István utca 121. A320, Budapest",
+  "lat": 47.519549,
+  "lng": 19.131932,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=47.519549,19.131932&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8496,
+  "country": "India",
+  "name": "Tenkasi Church",
+  "address": "No. 104/1a, Mangamma Salai,, Tenkasi",
+  "lat": 8.966722,
+  "lng": 77.310145,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=8.966722,77.310145&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8493,
+  "country": "India",
+  "name": "Vedikuzhi Church",
+  "address": "Granby Post,, Vandiperiyar (Via) Vedikuzhi, Idukki District,",
+  "lat": 9.549971,
+  "lng": 77.048939,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=9.549971,77.048939&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8491,
+  "country": "India",
+  "name": "Dymock Church",
+  "address": "Dymock Estate,, Vandiperiyar Via, Dymock Post, Idukki District,",
+  "lat": 9.572101,
+  "lng": 77.089579,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=9.572101,77.089579&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6548,
+  "country": "Indonesia",
+  "name": "Malang Church",
+  "address": "Jl. Tidar Sakti No. 20 A, Malang",
+  "lat": -7.964929,
+  "lng": 112.609548,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-7.964929,112.609548&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6551,
+  "country": "Indonesia",
+  "name": "Cilacap Church",
+  "address": "Jl. Laut No. 11, Cilacap",
+  "lat": -7.732041,
+  "lng": 109.016984,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-7.732041,109.016984&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6552,
+  "country": "Indonesia",
+  "name": "Solo Church",
+  "address": "Jl. Belik No. 33 (Kali Simpang No. 26), Solo",
+  "lat": -7.565851,
+  "lng": 110.841217,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-7.565851,110.841217&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5600,
+  "country": "Ireland",
+  "name": "Dublin Place of Worship",
+  "address": "c/o St Joseph's CBS Secondary School, Dublin",
+  "lat": 53.363944,
+  "lng": -6.233707,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=53.363944,-6.233707&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8306,
+  "country": "Italy",
+  "name": "Empoli Church",
+  "address": "Via Lorenzo Bartolini, 1,, Empoli",
+  "lat": 43.7206,
+  "lng": 10.938293,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=43.720600,10.938293&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8307,
+  "country": "Italy",
+  "name": "Prato Place of Worship",
+  "address": "Via Cavour, 17a,, Prato",
+  "lat": 43.882674,
+  "lng": 11.091269,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=43.882674,11.091269&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5993,
+  "country": "Japan",
+  "name": "Osaka Ikuno Church",
+  "address": "1-4-26 Tatsumihigashi Ikuno-ku, Osaka-shi",
+  "lat": 34.651952,
+  "lng": 135.555964,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=34.651952,135.555964&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5990,
+  "country": "Japan",
+  "name": "Tokyo Church",
+  "address": "341-1 Kamiyasumatsu, Tokorozawa-shi",
+  "lat": 35.781958,
+  "lng": 139.488471,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=35.781958,139.488471&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5994,
+  "country": "Japan",
+  "name": "Kawaguchi Church",
+  "address": "3-28 Naka-cho, Kawaguchi-shi",
+  "lat": 35.805727,
+  "lng": 139.706635,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=35.805727,139.706635&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5586,
+  "country": "Kenya",
+  "name": "Bugengi Church",
+  "address": "Busia",
+  "lat": 0.432998,
+  "lng": 34.147892,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=0.432998,34.147892&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5585,
+  "country": "Kenya",
+  "name": "Agoro Church",
+  "address": "Ngiya",
+  "lat": 0.039592,
+  "lng": 34.373534,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=0.039592,34.373534&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5587,
+  "country": "Kenya",
+  "name": "Kamwala Church",
+  "address": "Kendu Bay",
+  "lat": -0.348962,
+  "lng": 34.656356,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-0.348962,34.656356&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5589,
+  "country": "Liberia",
+  "name": "Liberia Church",
+  "address": "Monrovia, Buchanan",
+  "lat": 5.887247,
+  "lng": -10.030372,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=5.887247,-10.030372&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 9075,
+  "country": "Macau",
+  "name": "Macau Worship Place",
+  "address": "澳門黑沙環工業街21號龍園飛龍閣19樓G室, 21 Rua das Industrais",
+  "lat": 22.207651,
+  "lng": 113.550297,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=22.207651,113.550297&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6645,
+  "country": "Malaysia",
+  "name": "Kampong Koh Church",
+  "address": "168-A, New Village, Kampong Koh, Sitiawan",
+  "lat": 4.190079,
+  "lng": 100.703965,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=4.190079,100.703965&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6634,
+  "country": "Malaysia",
+  "name": "Ayer Tawar Church",
+  "address": "Lot No.12360, Main Road, Ayer Tawar",
+  "lat": 4.304412,
+  "lng": 100.760924,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=4.304412,100.760924&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6636,
+  "country": "Malaysia",
+  "name": "Bayan Baru Church",
+  "address": "17-1-8 Bayan Point, Medan Kampung Relau",
+  "lat": 5.332982,
+  "lng": 100.294417,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=5.332982,100.294417&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6931,
+  "country": "Mexico",
+  "name": "Mexico Place of Worship (Mexico City)",
+  "address": "Río Pánuco 104, Cuauhtémoc, Ciudad de México",
+  "lat": 19.430182,
+  "lng": -99.168114,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=19.430182,-99.168114&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6601,
+  "country": "Myanmar",
+  "name": "Myanmar Church",
+  "address": "No. 269 Padauk Street, Painnekong block,, Insein",
+  "lat": 16.863075,
+  "lng": 96.105431,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=16.863075,96.105431&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8701,
+  "country": "Netherlands",
+  "name": "Netherlands House of Prayer",
+  "address": "Meeting point (train station): Kon. Julianaplein 10,, Den Haag,",
+  "lat": 52.08777,
+  "lng": 4.398672,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=52.087770,4.398672&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6794,
+  "country": "New Zealand",
+  "name": "East Auckland Church",
+  "address": "88 Rockfield Rd, Auckland",
+  "lat": -36.907624,
+  "lng": 174.80603,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-36.907624,174.806030&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5662,
+  "country": "New Zealand",
+  "name": "Auckland Church",
+  "address": "1 Chandler Avenue, Royal Oak, Auckland",
+  "lat": -36.909017,
+  "lng": 174.77514,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-36.909017,174.775140&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5663,
+  "country": "New Zealand",
+  "name": "Christchurch Church",
+  "address": "7 Whiteleigh Avenue, Addington, Christchurch",
+  "lat": -43.54482,
+  "lng": 172.608253,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-43.544820,172.608253&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5590,
+  "country": "Nigeria",
+  "name": "Nigeria Church",
+  "address": "No. 4-8, Flat 4 Macdonald Road, Ikoyi",
+  "lat": 6.454811,
+  "lng": 3.434691,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=6.454811,3.434691&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6607,
+  "country": "Philippines",
+  "name": "Tabina Church",
+  "address": "Sfo. Domingo, Tabina",
+  "lat": 7.4651,
+  "lng": 123.410826,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=7.465100,123.410826&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6603,
+  "country": "Philippines",
+  "name": "Maculay Church",
+  "address": "Maculay, Vincenzo Sagun,, Vincenzo A. Sagun",
+  "lat": 7.540677,
+  "lng": 123.206766,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=7.540677,123.206766&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6605,
+  "country": "Philippines",
+  "name": "Pagadian Church",
+  "address": "Purok Makiangayon,, Napolan, Pagadian City",
+  "lat": 7.809472,
+  "lng": 123.415774,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=7.809472,123.415774&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5601,
+  "country": "Russia",
+  "name": "Moscow Church",
+  "address": "красногорский район, дер. Гольево, садов. Тов. «Урожай-2», уч.89, Moscow Oblast",
+  "lat": 55.800313,
+  "lng": 37.312661,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=55.800313,37.312661&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5591,
+  "country": "Sierra Leone",
+  "name": "Sierra Leone Church",
+  "address": "No. 19A Grassfield Road, Lumley, Freetown",
+  "lat": 8.465677,
+  "lng": -13.231723,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=8.465677,-13.231723&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6627,
+  "country": "Singapore",
+  "name": "Sembawang Church",
+  "address": "11 Woodlands Close #04-19, Singapore",
+  "lat": 1.434449,
+  "lng": 103.802603,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=1.434449,103.802603&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8838,
+  "country": "South Africa",
+  "name": "Cape Town Church",
+  "address": "1 Tulbagh Rd,, Milnerton",
+  "lat": -33.878712,
+  "lng": 18.498497,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-33.878712,18.498497&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5592,
+  "country": "South Africa",
+  "name": "South Africa Church",
+  "address": "30 Nicol Rd. Bedfordview, Johannesburg",
+  "lat": -26.18057,
+  "lng": 28.12698,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-26.180570,28.126980&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6015,
+  "country": "South Korea",
+  "name": "In Cheon Church",
+  "address": "15, Baekbeom-ro 73beon-gil, Namdong-gu,, Incheon",
+  "lat": 37.451193,
+  "lng": 126.737826,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=37.451193,126.737826&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6022,
+  "country": "South Korea",
+  "name": "Seo Bu Church",
+  "address": "35-1, Yeon-seo-ro 17-gil, EunPyeong-Gu,, Seoul",
+  "lat": 37.61439,
+  "lng": 126.913858,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=37.614390,126.913858&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5997,
+  "country": "South Korea",
+  "name": "An San Church",
+  "address": "2, Cheonmun 3-gil, Sangnok-gu, Ansan-si,, Gyeonggi-do",
+  "lat": 37.305786,
+  "lng": 126.844153,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=37.305786,126.844153&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6790,
+  "country": "Spain",
+  "name": "Madrid Church",
+  "address": "Calle de Dolores Folgueras, 2, Madrid",
+  "lat": 40.393585,
+  "lng": -3.659018,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=40.393585,-3.659018&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 8702,
+  "country": "Switzerland",
+  "name": "Zurich Place of Worship",
+  "address": "Rented service location: Asylstrasse 35, Zürich",
+  "lat": 47.368624,
+  "lng": 8.558954,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=47.368624,8.558954&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5714,
+  "country": "Taiwan",
+  "name": "Kaohsiung Church",
+  "address": "前金區中華三路69號, 高雄市",
+  "lat": 22.626506,
+  "lng": 120.296757,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=22.626506,120.296757&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5689,
+  "country": "Taiwan",
+  "name": "Nanmen Church",
+  "address": "南區水交社路339號, 台南市",
+  "lat": 22.980431,
+  "lng": 120.200507,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=22.980431,120.200507&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5708,
+  "country": "Taiwan",
+  "name": "Wolong Church",
+  "address": "新園鄉興龍村臥龍路72號, 屏東縣",
+  "lat": 22.492108,
+  "lng": 120.45717,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=22.492108,120.457170&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5593,
+  "country": "Tanzania",
+  "name": "Tanzania Church",
+  "address": "Kigamboni-Tungccm, House No. 232 P.O.Box 36082, Dar es Salaam",
+  "lat": -6.792354,
+  "lng": 39.208328,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=-6.792354,39.208328&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6620,
+  "country": "Thailand",
+  "name": "Maemor Church",
+  "address": "120 Moo.7 Taet Thai,, Mae Fa Luang",
+  "lat": 20.20617,
+  "lng": 99.678689,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=20.206170,99.678689&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6617,
+  "country": "Thailand",
+  "name": "Likai Church",
+  "address": "Nang Lae Nai, Li Kai, Mae Chan",
+  "lat": 20.176401,
+  "lng": 99.790178,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=20.176401,99.790178&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6618,
+  "country": "Thailand",
+  "name": "Phrankratai Church",
+  "address": "45 Moo. 3 Ban. Khau Kaeo, Phran Kratai",
+  "lat": 16.739949,
+  "lng": 99.500614,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=16.739949,99.500614&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5594,
+  "country": "Uganda",
+  "name": "Uganda Church",
+  "address": "True Jesus Church Rabachi P.O.Box 383, Bugiri, Sigulu Island",
+  "lat": 0.567137,
+  "lng": 33.746185,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=0.567137,33.746185&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5612,
+  "country": "United Kingdom",
+  "name": "Portsmouth Church",
+  "address": "114 North End Avenue, North End, Portsmouth,",
+  "lat": 50.820334,
+  "lng": -1.082452,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=50.820334,-1.082452&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5609,
+  "country": "United Kingdom",
+  "name": "London Forest Hill Church",
+  "address": "11 David's Road, Forest Hill, London",
+  "lat": 51.439922,
+  "lng": -0.054275,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=51.439922,-0.054275&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5607,
+  "country": "United Kingdom",
+  "name": "Leicester Church",
+  "address": "5 Granville Road, Leicester",
+  "lat": 52.625894,
+  "lng": -1.120162,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=52.625894,-1.120162&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5636,
+  "country": "United States",
+  "name": "Honolulu Church",
+  "address": "1111 Kemole Lane, Honolulu",
+  "lat": 21.295291,
+  "lng": -157.827478,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=21.295291,-157.827478&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5644,
+  "country": "United States",
+  "name": "Phoenix Church",
+  "address": "2640 N. Dobson Road, Chandler",
+  "lat": 33.345688,
+  "lng": -111.877145,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=33.345688,-111.877145&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 5652,
+  "country": "United States",
+  "name": "Tampa Church",
+  "address": "4403 West Pearl Avenue, Tampa",
+  "lat": 27.887889,
+  "lng": -82.518847,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=27.887889,-82.518847&cbp=11,0,0,0,0&output=svembed"
+ },
+ {
+  "id": 6767,
+  "country": "Vietnam",
+  "name": "Ho Chi Minh Evangelical Point",
+  "address": "Ho Chi Minh, Ho Chi Minh",
+  "lat": 10.742327,
+  "lng": 106.629287,
+  "embed": "https://maps.google.com/maps?layer=c&cbll=10.742327,106.629287&cbp=11,0,0,0,0&output=svembed"
+ }
+]
