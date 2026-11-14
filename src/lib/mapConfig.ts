@@ -1,26 +1,25 @@
 import L from 'leaflet';
 
 /**
- * Tile peta gratis tanpa API key.
+ * Tile peta gratis tanpa API key, label bahasa Inggris (huruf Latin): Esri World Street Map.
  *
- * Default: OpenStreetMap standar. (CARTO Voyager sudah dicoba, tapi per Nov 2026 tile CARTO tanpa
- * key hanya menampilkan watermark "API KEY REQUIRED".) Label OSM memakai bahasa lokal
- * (mis. 日本, Россия); kalau mau label Latin/Inggris, ganti ke Esri World Street Map:
- *   url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
- *   subdomains: '', attribution: 'Tiles &copy; Esri'
- * (cek dulu syarat pemakaian Esri).
+ * Riwayat: CARTO Voyager (per Nov 2026 tanpa key hanya menampilkan watermark "API KEY REQUIRED"),
+ * lalu OpenStreetMap standar (labelnya bahasa lokal, mis. 日本, Россия). Kalau Esri bermasalah,
+ * kembali ke OSM:
+ *   url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png', subdomains: 'abc', maxZoom: 19,
+ *   attribution: '&copy; OpenStreetMap contributors'
  */
 export const TILE = {
-  url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-  subdomains: 'abc',
+  url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+  subdomains: '',
   attribution:
-    '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors',
-  maxZoom: 19,
+    'Tiles &copy; <a href="https://www.esri.com" target="_blank" rel="noopener">Esri</a> &mdash; Esri, HERE, Garmin, USGS, &copy; OpenStreetMap contributors',
+  maxZoom: 18,
 };
 
 export function addTiles(map: L.Map): L.TileLayer {
   return L.tileLayer(TILE.url, {
-    subdomains: TILE.subdomains,
+    ...(TILE.subdomains ? { subdomains: TILE.subdomains } : {}),
     attribution: TILE.attribution,
     maxZoom: TILE.maxZoom,
     detectRetina: false,
