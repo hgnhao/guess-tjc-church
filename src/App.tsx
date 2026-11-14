@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { buildRounds, DEFAULT_ROOM, evaluateGuess, ROUNDS, seedForRoom, type Location, type RoundOutcome } from './lib/game';
+import { DEFAULT_ROOM, evaluateGuess, ROUNDS, roundsForRoom, seedForRoom, type Location, type RoundOutcome, type Sessions } from './lib/game';
 import type { LatLng } from './lib/geo';
 import { parseHash, useHash } from './lib/hooks';
 import { loadLocations } from './lib/locations';
@@ -36,6 +36,7 @@ interface GameState {
 export default function App() {
   const { path, params } = parseHash(useHash());
   const [locations, setLocations] = useState<Location[] | null>(null);
+  const [sessions, setSessions] = useState<Sessions>({});
   const [loadError, setLoadError] = useState(false);
   const [prefs, setPrefs] = useState<Prefs>(() => loadJSON<Prefs>(PREFS_KEY) ?? { name: '', room: DEFAULT_ROOM });
   const [game, setGame] = useState<GameState | null>(() => {
@@ -45,8 +46,9 @@ export default function App() {
 
   useEffect(() => {
     let alive = true;
-    loadLocations().then(({ locations }) => {
+    loadLocations().then(({ locations, sessions }) => {
       if (!alive) return;
+      setSessions(sessions);
       if (locations.length) setLocations(locations);
       else setLoadError(true);
     });
@@ -80,7 +82,7 @@ export default function App() {
       const p = { name, room };
       setPrefs(p);
       saveJSON(PREFS_KEY, p);
-      const picked = buildRounds(locations, room, ROUNDS);
+      const picked = roundsForRoom(locations, room, sessions, ROUNDS);
       setGame({
         v: 1,
         room,
@@ -94,7 +96,7 @@ export default function App() {
       });
       window.scrollTo(0, 0);
     },
-    [locations],
+    [locations, sessions],
   );
 
   const onTimerStart = useCallback((deadline: number) => {
@@ -132,6 +134,7 @@ export default function App() {
         defaultName={prefs.name}
         defaultRoom={prefs.room}
         rounds={locations ? Math.min(ROUNDS, totalCountries) : ROUNDS}
+        roundsFor={(room) => (locations ? roundsForRoom(locations, room, sessions, ROUNDS).length : ROUNDS)}
         status={loadError ? 'error' : locations ? 'ready' : 'loading'}
         onStart={startGame}
       />

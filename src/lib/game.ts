@@ -7,7 +7,7 @@ export const ROUND_SECONDS = 90;
 export const MAX_POINTS = 5000;
 export const FULL_SCORE_KM = 25;
 export const SCORE_SCALE_KM = 2000;
-export const DEFAULT_ROOM = 'TJC';
+export const DEFAULT_ROOM = 'TJC1';
 export const NAME_MAX = 20;
 export const ROOM_MAX = 20;
 
@@ -98,6 +98,39 @@ export function normalizeLocations(raw: unknown): Location[] {
 }
 
 const canonicalKey = (l: Location) => `${l.country}\u0000${l.name}\u0000${l.lat.toFixed(6)}\u0000${l.lng.toFixed(6)}\u0000${l.embed}`;
+
+/** Sesi tetap: kode ruangan -> daftar nama gereja (urutan = urutan soal). Dari public/sessions.json. */
+export type Sessions = Record<string, string[]>;
+
+export function normalizeSessions(raw: unknown): Sessions {
+  const out: Sessions = {};
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return out;
+  for (const [code, list] of Object.entries(raw as Record<string, unknown>)) {
+    if (!Array.isArray(list)) continue;
+    const names = list.filter((n): n is string => typeof n === 'string' && n.trim() !== '').map((n) => n.trim());
+    if (names.length) out[normalizeRoom(code)] = names;
+  }
+  return out;
+}
+
+/**
+ * Lokasi untuk satu game. Kalau kode ruangan ada di sessions.json, pakai daftar tetap itu
+ * (nama yang tidak ditemukan dilewati); kalau tidak, pilih acak deterministik dari kode ruangan.
+ */
+export function roundsForRoom(
+  locations: readonly Location[],
+  room: string,
+  sessions: Sessions = {},
+  count = ROUNDS,
+): Location[] {
+  const fixed = sessions[normalizeRoom(room)];
+  if (fixed) {
+    const byName = new Map(locations.map((l) => [l.name, l]));
+    const picked = fixed.map((n) => byName.get(n)).filter((l): l is Location => Boolean(l));
+    if (picked.length) return picked;
+  }
+  return buildRounds(locations, room, count);
+}
 
 /**
  * Pilih lokasi untuk satu game secara deterministik dari kode ruangan.

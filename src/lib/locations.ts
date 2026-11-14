@@ -1,21 +1,26 @@
-import { normalizeLocations, type Location } from './game';
+import { normalizeLocations, normalizeSessions, type Location, type Sessions } from './game';
 
 const base = import.meta.env.BASE_URL;
 
-async function tryLoad(file: string): Promise<Location[]> {
+async function fetchJSON(file: string): Promise<unknown> {
   try {
     const res = await fetch(`${base}${file}`, { cache: 'no-cache' });
-    if (!res.ok) return [];
-    return normalizeLocations(await res.json());
+    if (!res.ok) return null;
+    return await res.json();
   } catch {
-    return [];
+    return null;
   }
 }
 
-/** Pakai public/locations.json; kalau tidak ada/kosong, fallback ke public/candidates.json. */
-export async function loadLocations(): Promise<{ locations: Location[]; source: string }> {
-  const main = await tryLoad('locations.json');
-  if (main.length) return { locations: main, source: 'locations.json' };
-  const fallback = await tryLoad('candidates.json');
-  return { locations: fallback, source: 'candidates.json' };
+/**
+ * Pakai public/locations.json; kalau tidak ada/kosong, fallback ke public/candidates.json.
+ * public/sessions.json (opsional) berisi daftar soal tetap per kode ruangan.
+ */
+export async function loadLocations(): Promise<{ locations: Location[]; sessions: Sessions; source: string }> {
+  const [main, sessionsRaw] = await Promise.all([fetchJSON('locations.json'), fetchJSON('sessions.json')]);
+  const sessions = normalizeSessions(sessionsRaw);
+  const locs = normalizeLocations(main);
+  if (locs.length) return { locations: locs, sessions, source: 'locations.json' };
+  const fallback = normalizeLocations(await fetchJSON('candidates.json'));
+  return { locations: fallback, sessions, source: 'candidates.json' };
 }

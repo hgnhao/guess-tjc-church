@@ -6,11 +6,13 @@ interface Props {
   defaultName: string;
   defaultRoom: string;
   rounds: number;
+  /** Jumlah ronde untuk kode tertentu (kode sesi tetap bisa berbeda). */
+  roundsFor?: (room: string) => number;
   status: 'loading' | 'ready' | 'error';
   onStart: (name: string, room: string) => void;
 }
 
-export default function Start({ defaultName, defaultRoom, rounds, status, onStart }: Props) {
+export default function Start({ defaultName, defaultRoom, rounds, roundsFor, status, onStart }: Props) {
   const [name, setName] = useState(defaultName);
   const [room, setRoom] = useState(defaultRoom || DEFAULT_ROOM);
   const [touched, setTouched] = useState(false);
@@ -79,7 +81,7 @@ export default function Start({ defaultName, defaultRoom, rounds, status, onStar
             <p className="field-error center">Gagal memuat data lokasi. Cek koneksi internet lalu muat ulang halaman.</p>
           )}
           <p className="start-meta">
-            {rounds} ronde · {ROUND_SECONDS} detik per ronde · maks 5.000 poin per ronde
+            {roundsFor ? roundsFor(cleanRoom) : rounds} ronde · {ROUND_SECONDS} detik per ronde · maks 5.000 poin per ronde
           </p>
         </form>
 
