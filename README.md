@@ -16,13 +16,10 @@ npm run preview    # coba hasil build
 
 ## Data lokasi
 
-- `public/locations.json`: daftar lokasi hasil kurasi. Buka `kurasi-lokasi.html` di browser, tandai ✓ Pakai, lalu klik **Export locations.json** dan simpan ke folder `public/`.
-- `public/candidates.json`: dipakai otomatis kalau `locations.json` tidak ada atau kosong.
-- `locations.json` bawaan repo (67 lokasi, 37 negara) = semua kandidat, **dikurangi** yang dicek pada 14 Nov 2026 dan ternyata bermasalah:
-  - *No Street View available*: Brunei House of Prayer, Lautoka (Fiji), Georgia Place of Worship, Agoro & Bugengi (Kenya), Liberia Church, Macau Worship Place, Myanmar Church, East Auckland (NZ), Sierra Leone Church, Tanzania Church, Maemor/Likai/Phrankratai (Thailand), Accra (Ghana), Uganda Church.
-  - Foto di dalam ruangan (tidak ada petunjuk lokasi): Goma (DR Congo), Hamburg (Jerman), Zurich (Swiss).
-
-  Lokasi-lokasi ini bisa diselamatkan lewat `kurasi-lokasi.html`: cari panorama terdekat di Google Maps, lalu tempel URL *Share → Embed a map*.
+- `public/locations.json`: semua lokasi yang bisa keluar (80 lokasi, 35 negara). Field `clear: true` menandai 31 gereja yang bangunannya jelas terlihat dari sudut pandang awal Street View (dicek manual 14 Nov 2026). Sisanya Street View-nya jalan atau sekitar gereja, tanpa bangunan yang jelas.
+- `public/sessions.json`: soal tetap per kode ruangan. `TJC1`, `TJC2`, dan `TJC3` masing-masing 10 soal: 10 negara berbeda per game, tanpa gereja yang terulang antar-game. Kode lain dipilih acak (deterministik) dari `locations.json`.
+- `public/candidates.json`: dipakai kalau `locations.json` tidak ada atau kosong. `kurasi-lokasi.html` bisa dipakai untuk membuat `locations.json` baru dari kandidat ini.
+- Kandidat yang dibuang karena *No Street View available*: Brunei House of Prayer, Lautoka (Fiji), Georgia Place of Worship, Agoro, Bugengi (Kenya), Liberia Church, Macau Worship Place, Myanmar Church, East Auckland (NZ), Sierra Leone Church, Tanzania Church, Maemor, Likai, Phrankratai (Thailand), Accra (Ghana), Uganda Church. Dibuang karena foto di dalam ruangan: Goma, Hamburg, Zurich, Salzburg, Kawaguchi, Sembawang.
 - `embed` boleh berupa URL `...output=svembed` atau `https://www.google.com/maps/embed?pb=...` (hasil *Share → Embed a map*). Kalau yang ditempel adalah kode `<iframe ...>` lengkap, `src`-nya diambil otomatis.
 - `lat`/`lng` adalah titik jawaban.
 - Kalau ada negara baru, tambahkan di `src/data/countries.ts`. `npm test` akan gagal kalau ada `country` yang belum terdaftar.
@@ -35,7 +32,7 @@ npm run preview    # coba hasil build
 | Sumber tile peta | `src/lib/mapConfig.ts` (`TILE`) |
 | Ukuran overlay penutup kartu alamat | `src/styles.css` (`--leak-w`, `--leak-h`) |
 
-Urutan lokasi ditentukan oleh **Kode Ruangan**. Kode sama berarti lokasi dan urutan sama untuk semua pemain. Untuk sesi baru dengan lokasi berbeda, host cukup memakai kode lain (misalnya `TJC2`).
+Urutan lokasi ditentukan oleh **Kode Ruangan**. Kode sama berarti lokasi dan urutan sama untuk semua pemain. Kode bawaan adalah `TJC1`; untuk game berikutnya pakai `TJC2`, lalu `TJC3` (soal tetap dari `sessions.json`). Kode lain menghasilkan pilihan acak dengan aturan maksimal satu lokasi per negara.
 
 ## Deploy ke Vercel
 
@@ -67,7 +64,7 @@ Papan skor untuk proyektor: `https://<domain>/#/board?room=TJC`. Data diperbarui
 
 ## Keputusan yang diambil (dan alasannya)
 
-- **Tile peta pakai OpenStreetMap standar, bukan CARTO Voyager.** Per November 2026, tile CARTO tanpa key hanya menampilkan watermark "API KEY REQUIRED". Akibatnya label peta memakai bahasa lokal (mis. 日本, Россия). Alternatif berlabel Latin ada di komentar `src/lib/mapConfig.ts`.
+- **Tile peta pakai Esri World Street Map, bukan CARTO Voyager.** Per November 2026, tile CARTO tanpa key hanya menampilkan watermark "API KEY REQUIRED". OpenStreetMap standar sempat dipakai, tapi labelnya bahasa lokal (mis. 日本, Россия). Esri tidak butuh key dan labelnya bahasa Inggris. Cara kembali ke OSM ada di komentar `src/lib/mapConfig.ts`.
 - **Fullscreen di dalam iframe Street View dimatikan.** Mode fullscreen milik iframe akan menyembunyikan overlay penutup kartu alamat. Iframe sudah memenuhi layar, jadi tidak ada yang hilang. Bisa diaktifkan lagi lewat `ALLOW_IFRAME_FULLSCREEN` di `src/screens/Round.tsx`.
 - **Rata-rata jarak**: ronde yang tidak ditebak dihitung 20.000 km (kira-kira setengah keliling bumi).
 - **Refresh di tengah game**: progres tersimpan di `localStorage`, jadi pemain kembali ke ronde yang sama. Timer tidak di-reset, supaya refresh tidak bisa dipakai untuk menambah waktu. Pin yang belum dikirim akan hilang.
